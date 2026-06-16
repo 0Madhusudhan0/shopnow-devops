@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: devopsregistry/shopnow-frontend:latest
+          image: madhusudhan00/shopnow-frontend:latest
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 80
