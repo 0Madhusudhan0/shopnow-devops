@@ -9,8 +9,8 @@ WORKDIR /app
 COPY frontend/package*.json ./
 
 # Install dependencies (frozen/clean install is skipped as we copy only package.json)
-# RUN npm install
-RUN npm install && chmod -R 755 node_modules/.bin
+RUN npm install
+# RUN npm install && chmod -R 755 node_modules/.bin
 
 # Copy the rest of the source code
 COPY frontend/ ./
