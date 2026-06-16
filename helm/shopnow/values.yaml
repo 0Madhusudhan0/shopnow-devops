@@ -1,0 +1,40 @@
+# Default values for shopnow.
+# This is a YAML-formatted file.
+
+replicaCount: 2
+
+image:
+  repository: devopsregistry/shopnow-frontend
+  pullPolicy: IfNotPresent
+  # Overrides the image tag whose default is the chart appVersion.
+  tag: "latest"
+
+service:
+  type: ClusterIP
+  port: 80
+
+ingress:
+  enabled: true
+  className: "nginx"
+  annotations:
+    nginx.ingress.kubernetes.io/ssl-redirect: "false"
+    nginx.ingress.kubernetes.io/use-regex: "true"
+  hosts:
+    - host: shopnow.local
+      paths:
+        - path: /
+          pathType: Prefix
+
+resources:
+  limits:
+    cpu: 500m
+    memory: 256Mi
+  requests:
+    cpu: 100m
+    memory: 128Mi
+
+# App Configuration
+config:
+  appEnv: "production"
+  apiUrl: "https://api.shopnow.local"
+  supportEmail: "support@shopnow.local"

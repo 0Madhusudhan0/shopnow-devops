@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "name": "NovaSound Elite Wireless Headphones",
+    "price": 189.99,
+    "category": "Electronics",
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&auto=format&fit=crop&q=80",
+    "description": "Experience true audio purity with NovaSound Elite. Featuring advanced active noise cancellation (ANC), 40-hour battery life, and plush memory foam earcups for all-day comfort. Seamlessly connect to multiple devices via Bluetooth 5.2.",
+    "specs": {
+      "Battery Life": "Up to 40 hours",
+      "Bluetooth Version": "5.2",
+      "Noise Cancellation": "Active Hybrid ANC",
+      "Weight": "250g"
+    },
+    "rating": 4.8,
+    "reviews": 124
+  },
+  {
+    "id": 2,
+    "name": "Chronos Minimalist Chronograph Watch",
+    "price": 249.00,
+    "category": "Accessories",
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&auto=format&fit=crop&q=80",
+    "description": "Crafted for the modern explorer, the Chronos Chronograph balances architectural simplicity with high-precision timekeeping. Features a premium leather strap, brushed surgical-grade stainless steel case, and 50m water resistance.",
+    "specs": {
+      "Case Diameter": "40mm",
+      "Water Resistance": "5 ATM / 50 meters",
+      "Strap Material": "Genuine Italian Leather",
+      "Movement": "Japanese Quartz"
+    },
+    "rating": 4.6,
+    "reviews": 89
+  },
+  {
+    "id": 3,
+    "name": "AeroStep Knit Runner Shoes",
+    "price": 120.00,
+    "category": "Apparel",
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=800&auto=format&fit=crop&q=80",
+    "description": "Lighter than air, designed for performance. The AeroStep Knit features an ultra-breathable engineered knit upper, responsive foam cushioning, and an anatomical outsole that maps your natural stride for maximum energy return.",
+    "specs": {
+      "Upper Material": "Engineered Flyknit",
+      "Midsole": "AeroFoam Response",
+      "Weight": "180g (Size 9)",
+      "Drop": "8mm"
+    },
+    "rating": 4.7,
+    "reviews": 215
+  },
+  {
+    "id": 4,
+    "name": "Lumina Ceramic Smart Ambient Light",
+    "price": 79.50,
+    "category": "Home Decor",
+    "image": "https://images.unsplash.com/photo-1507646227500-4d389b0012be?w=800&auto=format&fit=crop&q=80",
+    "description": "Transform your space with Lumina. A hand-cast ceramic smart lamp that synchronizes with your daily rhythms. Control over 16 million colors and customizable light scenes via your smartphone or simple voice commands.",
+    "specs": {
+      "Connectivity": "Wi-Fi & Bluetooth",
+      "Power Source": "USB-C Powered",
+      "Dimensions": "15cm x 15cm x 22cm",
+      "Compatibility": "Apple Home, Google Home, Alexa"
+    },
+    "rating": 4.5,
+    "reviews": 67
+  },
+  {
+    "id": 5,
+    "name": "Vertex Carbon Fiber Backpack",
+    "price": 145.00,
+    "category": "Accessories",
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&auto=format&fit=crop&q=80",
+    "description": "The ultimate daily commuter pack. Built with waterproof ballistic nylon and genuine carbon fiber reinforced panels. Includes a TSA-friendly padded 16\" laptop sleeve, hidden security pocket, and USB pass-through port.",
+    "specs": {
+      "Capacity": "22 Liters",
+      "Laptop Pocket": "Up to 16-inch laptops",
+      "Material": "1680D Ballistic Nylon & Carbon Fiber",
+      "Weatherproofing": "IPX4 Rainproof"
+    },
+    "rating": 4.9,
+    "reviews": 142
+  },
+  {
+    "id": 6,
+    "name": "HydroStream Insulated Flask",
+    "price": 34.99,
+    "category": "Accessories",
+    "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=800&auto=format&fit=crop&q=80",
+    "description": "Keep your beverages cold for up to 24 hours or steaming hot for 12. Double-wall vacuum insulation coupled with a durable powder-coated finish ensures a condensation-free grip. Crafted from pro-grade 18/8 stainless steel.",
+    "specs": {
+      "Volume": "32 oz (946 ml)",
+      "Material": "18/8 Food-Grade Stainless Steel",
+      "BPA Free": "Yes",
+      "Temp Control": "24h Cold / 12h Hot"
+    },
+    "rating": 4.7,
+    "reviews": 310
+  },
+  {
+    "id": 7,
+    "name": "Bespoke Merino Wool Sweater",
+    "price": 95.00,
+    "category": "Apparel",
+    "image": "https://images.unsplash.com/photo-1614975058789-41316d0e2e9c?w=800&auto=format&fit=crop&q=80",
+    "description": "Knitted from 100% fine Australian Merino wool, this crewneck sweater offers natural temperature regulation and unmatched softness. The tailored athletic cut provides a refined silhouette suitable for both casual and formal wear.",
+    "specs": {
+      "Material": "100% Australian Merino Wool",
+      "Knit Weight": "Medium-light (12 gauge)",
+      "Care Instructions": "Hand wash cold or dry clean",
+      "Fit": "Tailored Fit"
+    },
+    "rating": 4.4,
+    "reviews": 54
+  },
+  {
+    "id": 8,
+    "name": "Ember Glass Pour-Over Coffee Maker",
+    "price": 45.00,
+    "category": "Home Decor",
+    "image": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=800&auto=format&fit=crop&q=80",
+    "description": "Brew the perfect cup. Ember combines heat-resistant hand-blown borosilicate glass with a sustainable walnut wood collar. The included reusable double-mesh stainless steel cone filter captures fine oils for a rich, sediment-free flavor.",
+    "specs": {
+      "Capacity": "6 Cups (800ml)",
+      "Material": "Borosilicate Glass & Walnut Wood",
+      "Filter Type": "Reusable Double-Layer Stainless Steel Mesh",
+      "Dishwasher Safe": "Glass body only"
+    },
+    "rating": 4.8,
+    "reviews": 113
+  }
+]

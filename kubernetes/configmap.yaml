@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: shopnow-config
+  namespace: shopnow
+  labels:
+    app.kubernetes.io/name: shopnow
+    app.kubernetes.io/component: frontend
+data:
+  APP_ENV: "production"
+  API_URL: "https://api.shopnow.local"
+  SUPPORT_EMAIL: "support@shopnow.local"
