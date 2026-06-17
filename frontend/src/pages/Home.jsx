@@ -20,7 +20,7 @@ export default function Home() {
         <div className="hero-content">
           <h1>
             Discover the <br />
-            <span className="accent-text">Premium Std</span> <br />
+            <span className="accent-text">Premium standard</span> <br />
             of Shopping.
           </h1>
           <p className="hero-description">
